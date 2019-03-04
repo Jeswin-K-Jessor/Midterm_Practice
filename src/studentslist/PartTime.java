@@ -11,7 +11,7 @@ package studentslist;
  */
 public class PartTime {
  
-    String name;
+    String name = "jeswin"; // just gave a initialisation.....
     int hours = 20;
     int rate = 14;
     int pay;
