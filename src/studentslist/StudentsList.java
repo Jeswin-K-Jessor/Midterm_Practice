@@ -8,7 +8,7 @@ package studentslist;
 
 /**
  *
- * @author shaim
+ * @author jeswin
  */
 public class StudentsList {
 
@@ -22,7 +22,7 @@ public class StudentsList {
      s1.setId(123);
      
      Student s2 = new Student();
-     Student s3 = new Student("John",456);
+     Student s3 = new Student("Harman",104);
      
      System.out.println("BEFORE s1 ==> Name: "+ s1.getName() + " ID ="+ s1.getId() );
      System.out.println("s2 ==> Name: "+ s2.getName() + " ID ="+ s2.getId() );
@@ -33,9 +33,9 @@ public class StudentsList {
      studentList[0] = s1;
      studentList[1] = s2;
      studentList[2] = s3;
-     studentList[3] = new Student("ABC",1111);
-     studentList[4] = new Student("XYZ",2222);
-     s1 = new Student("Smith",5555);
+     studentList[3] = new Student("Anmol",101);
+     studentList[4] = new Student("Ujjwal",102);
+     s1 = new Student("Jeswin",103);
      System.out.println("AFTER s1 ==> Name: "+ s1.getName() + " ID ="+ s1.getId() );
      
      for (int i=0; i<studentList.length; i++)
