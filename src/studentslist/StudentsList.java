@@ -18,7 +18,7 @@ public class StudentsList {
     public static void main(String[] args) {
 
      Student s1 = new Student();
-     s1.setName("Shaimaa");
+     s1.setName("jeswin");
      s1.setId(123);
      
      Student s2 = new Student();
